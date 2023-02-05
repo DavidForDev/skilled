@@ -17,7 +17,7 @@ const CourseCard = ({ data }) => {
       opacity: 1,
       scrollTrigger: {
         trigger: cardRef.current,
-        start: "top 45%",
+        start: "top 60%",
       },
       onComplete() {
         ScrollTrigger.refresh(true);
